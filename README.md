@@ -5,12 +5,12 @@ In data-driven workflows, ensuring data quality is paramount to deriving accurat
 
 # Discussion
 ### Task 2
-**Why might this data point be mislabeled, and which feature values could have caused the misclassification?**
+<ins>**Why might this data point be mislabeled, and which feature values could have caused the misclassification?**</ins>
 
 It is reasonable for this datapoint to be suspected as mislabled as it is much closer to the mean of class 2 than it is to class 1.  All features are within ~1.1 standard deviations of the means of class 2 while they are ~1.5 standard deviations from the means of class 1.
 
 ### Task 3
-__**Do these suspected anomalous data points match what you expect for their species? Why or why not?**__
+<ins>**Do these suspected anomalous data points match what you expect for their species? Why or why not?**</ins>
 
 According to background research, the individual features in each class in the iris dataset is approximately normal.
 
@@ -19,11 +19,11 @@ According to background research, the individual features in each class in the i
 - The second last datapoint has sepal lengths and petal lengths around 2-3 standard deviations away from the mean.  It is possible that they could be anomalies.
 - The last datapoint has sepal width of around 1.5 standard deviations away from the mean.  It is unlikely that it is an anomaly.
 
-__**Which feature (sepal length, petal length, etc.) seems most unusual in these points?**__
+<ins>**Which feature (sepal length, petal length, etc.) seems most unusual in these points?**</ins>
 
 Petal lengths has the most extreme and unusual values.  See the analysis above.
 
-__**How can you check if these values are truly anomalies using the original dataset?**__
+<ins>**How can you check if these values are truly anomalies using the original dataset?**</ins>
 
 - The first two points are certainly anomalies.
 
